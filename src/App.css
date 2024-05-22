@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.color-select{
+  height: 350px;
+  width: 350px;
+  border-radius: 16px;
+  background-color: blue;
+  margin-bottom: 16px;
+}
+.horizontal-slider{
+  display: flex;
+  border: solid 1px black;
+  height: 20px;
+  width: 300px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.example-thumb-red{
+  background-color: red;
   color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: solid 1px black;
+  padding: 12px;
+  border-radius: 100%;
+  width: 30px;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.example-thumb-green{
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: solid 1px black;
+  padding: 12px;
+  border-radius: 100%;
+  width: 30px;
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.example-thumb-blue{
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: solid 1px black;
+  padding: 12px;
+  border-radius: 100%;
+  width: 30px;
+  text-align: center;
 }
